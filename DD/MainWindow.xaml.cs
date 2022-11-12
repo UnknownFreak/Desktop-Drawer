@@ -133,5 +133,12 @@ namespace DD
                 DeleteObject(handle);
             }
         }
+
+        private void Close_button_Click(object sender, RoutedEventArgs e)
+        {
+            Close_button.Visibility = Visibility.Hidden;
+            CurrentScreenToClipboard();
+            this.Close();
+        }
     }
 }

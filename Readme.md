@@ -9,7 +9,7 @@ Ctrl + z to undo what has been drawn
 
 Future improvements:
 Pen types (eg highlight marker, eraser etc.)
-Scalability of the ColorPicker (cannot be resized)
+Scalability of the ColorPicker (cannot be resized at the moment)
 TopBar (pen/ exit/ etc)
 Color pallete in ColorPicker
 Multi monitor support

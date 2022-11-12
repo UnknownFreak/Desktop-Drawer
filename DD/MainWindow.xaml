@@ -7,5 +7,15 @@
     <Grid>
         <InkCanvas x:Name="ik" Background="#02FFFFFF" KeyDown="DWindow_KeyDown" PreviewMouseDown="ik_PreviewMouseDown"/>
         <colorpicker:ColorDialSelector x:Name="ColorPicker" Width="450" Height="450" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Button x:Name="Close_button" Width="32" Height="32" Margin="0,10,10,0" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Close_button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+            <Button.Background>
+                <ImageBrush ImageSource="/Resources/CloseIcon.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>    
